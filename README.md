@@ -1,120 +1,82 @@
-> March, 2016: If you're on an old version of Jekyll Now and run into a) build warnings or b) syntax highlighting issues caused by [Jekyll 3 and GitHub Pages updates](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0), just :sparkles:[update your _config.yml](https://github.com/barryclark/jekyll-now/pull/445/files):sparkles: and you'll be set!
+**Open Research Cultures** is a research and knowledge mobilisation network dedicated to the development of an Open-by-Default research culture through training and professional development. The project is a partnership of leading Open Science and Scholarship (OSS) advocacy and training organisations, Research on Research Institutes, Libraries, Universities, and other organisations involved in the study, development, and dissemination of OSS skills and practices. It is led by a global network of OSS researchers, advocates, and thought leaders.
 
-# Jekyll Now
+# The Challenge
 
-**Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
+Open Research Cultures addresses the fundamental gap that exists between Open Research policy, as this is developed and promoted by governments, funders, and knowledge institutions, and Open Research practice, as this is implemented within the community of research users and producers. 
 
-**Jekyll Now** makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup.
+![Open Research from the Policy Perspective](images/OpenPolicyDrawing.png)
 
-- You don't need to touch the command line
-- You don't need to install/configure ruby, rvm/rbenv, ruby gems :relaxed:
-- You don't need to install runtime dependencies like markdown processors, Pygments, etc
-- If you're on Windows, this will make setting up Jekyll a lot easier
-- It's easy to try out, you can just delete your forked repository if you don't like it
+At the policy level, Open Research is commonly understood and promoted as a system-wide public good that manifests itself in different disciplinary shapes. Transnational groups such as the EU, national agencies such as UKRI, Tricouncil (Canada), ARC (Australia), private funders (e.g. Arcadia, Wellcome), and individual institutions (e.g. Simon Fraser, Harvard University, University College London) commonly propose and enforce broad “Open Access” or “Open Data” mandates across their portfolios. REF 2021, for example, will count only research outputs that have been published on an Open basis in its system-wide assessment of research institutions in the United Kingdom, whether in the Humanities and Social Sciences (HSS), or Science, Technology, and Medicine (STEM). Tricouncil, likewise, has introduced system-wide “Open Data” and “Open Access” requirements that apply to researchers seeking funding from any federal funding agency, whether in HSS (SSHRC), Science and Engineering (NSERC), or Health (CIHR). Universities that have adopted the “Harvard Licence” as a way of promoting Open Access and the sustainability of their Institutional Repositories (IRs), apply this licence across their faculties and departments, from Physics to Finance to Fine Arts. While we still have a way to go, the movement towards an Open-by-Default research policy world is nevertheless well in hand.
 
-In a few minutes you'll be set up with a minimal, responsive blog like the one below giving you more time to spend on writing epic blog posts!
+![Open Policy from the Disciplines](images/OpenfromDisciplines.png)
 
-![Jekyll Now Theme Screenshot](/images/jekyll-now-theme-screenshot.jpg "Jekyll Now Theme Screenshot")
+Things look very different from the perspective of the individual researcher and research user, however. At this level, there is often little evidence of the broad, system-wide consensus upon which so much policy is predicated. Different disciplines, or even sub-disciplines, vary greatly in the degree to which “Open” is promoted, practiced, or even tolerated by researchers, research users, disciplinary societies, and individual departments. In some domains (e.g. High Energy Physics), Open Practices are by far the norm. In others (e.g. History), leading journals and institutions have proved much more reluctant and cautious about supporting Open Research Practices. Some societies (e.g. the American Geophysical Union, the Modern Language Association) are eager supporters of Open Access within their disciplines. Others are more cautious or less supportive of discipline-wide Open Access mandates (for example, see the Society Publishers Coalition responses to Plan S or the Canadian Association of Learned Journals to the redesign of the Aid to Scholarly Journals program).
 
-## Quick Start
+Above all, however, at the level of practice is the question of training. Where Open Policy is becoming more and more consistent, required, and applicable-to-all, training in Open Research Practices remains a niche activity organised by-and-large on disciplinary lines, delivered by enthusiasts, and generally accessed only by those who are already convinced of its value. Courses in Open Research techniques are, for the most part, delivered outside the regular disciplinary research and professionalisation training provided (implicitly or explicitly) to students, Early Career Researchers, and other other Highly Qualified Personnel as part of their standard traditional training: while some graduate students are no doubt introduced to Open Science and Scholarship as part of their bibliography or methods courses, for example, experience suggests that this is far from the norm in most disciplines and regions. Indeed, students who believe that their future careers require them to know more about OSS research practices than they are learning in their departments are a significant share of the participants in extramural Open Research Cultures at events such as OpenCon and the Force11 Scholarly Communication Institute (FSCI). Such workshops, however — focussed as they are on a single aspect of research practice and attended by those who have a specific interest in learning more about OSS — can never be the primary vectors for promoting the systemic adoption of OSS envisioned in current policy. As long as they continue to “preach to the choir,” “Open” will remain a voluntary and niche activity carried out by the ideologically committed, rather than a fundamental basis for the communication of research results.
 
-### Step 1) Fork Jekyll Now to your User Repository
 
-Fork this repo, then rename the repository to yourgithubusername.github.io.
+# Overall goal and objectives of the proposed partnership
 
-Your Jekyll blog will often be viewable immediately at <https://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2)
+The overall goal of the Open Research Cultures Partnership is to facilitate progress toward a broad-based, Open-by-Default research culture across disciplinary, regional, sectoral, and institutional silos by researching, facilitating the development of, and disseminating best practice in the promotion of, and training and professional development in OSS research practices. 
 
-![Step 1](/images/step1.gif "Step 1")
+In addressing this goal, the partnership has three main objectives, which correspond also to our research and mobilisation activities:
 
-### Step 2) Customize and view your site
 
-Enter your site name, description, avatar and many other options by editing the _config.yml file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here too.
+1. Improve and facilitate the coordination of current Open Research Training initiatives through a series of summit meetings and working groups examining specific questions of efficiency and effectiveness in current training.
+2. Research the pathways by which researchers and research users are currently trained in disciplinary research methods and professionalisation, focussing particularly on the degree to which Open practices are or are not included in such training.
+3. Implement the results of (1) and (2) so as to facilitate and promote the adoption of proven training techniques in disciplinary and institutional professionalisation and training programmes.
 
-Making a change to _config.yml (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at <https://yourgithubusername.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon
 
-> There are 3 different ways that you can make changes to your blog's files:
+# Method
 
-> 1. Edit files within your new username.github.io repository in the browser at GitHub.com (shown below).
-> 2. Use a third party GitHub content editor, like [Prose by Development Seed](http://prose.io). It's optimized for use with Jekyll making markdown editing, writing drafts, and uploading images really easy.
-> 3. Clone down your repository and make updates locally, then push them to your GitHub repository.
+Open Research Cultures will address its objectives using a combination of round-tables, summit meetings, and working groups. Interim and final outputs will include 
 
-![_config.yml](/images/config.png "_config.yml")
 
-### Step 3) Publish your first blog post
 
-Edit `/_posts/2014-3-3-Hello-World.md` to publish your first blog post. This [Markdown Cheatsheet](http://www.jekyllnow.com/Markdown-Style-Guide/) might come in handy.
+*   articles, books, and whitepapers reporting on the results of research into the current state and future directions for disciplinary training and professional development in OSS.
+*   model syllabi, resources, and instructor training for OSS research methods, both as stand-alone courses or workshops and modules for inclusion in disciplinary training courses.
+*   improved coordination and alignment among existing OSS training organisations.
 
-![First Post](/images/first-post.png "First Post")
+Our approach is based on and extends that taken by the National Academies of Sciences, Engineering, and Medicine in their complementary, Arcadia-funded project, “Roundtable on Aligning Incentives for Open Science” ([http://bit.ly/NASEM-Arcadia](http://bit.ly/NASEM-Arcadia)) and used successful by several members of the Open Research Cultures team on an earlier, Moore and Sloan-funded project, “Principles of the Scholarly Commons.” Where the National Academies project brings together stakeholders from the policy side (e.g. funders, governments, institutional administration, etc.), focussing largely on North America and Western Europe, and is funding research into policy issues involved in the promotion of Open Science, our project proposes using a similar approach to organising and facilitating the much larger and more diverse stakeholders active in the training and implementation space.
 
-> You can add additional posts in the browser on GitHub.com too! Just hit the + icon in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
+![Project timeline](images/timeline.png)
 
-## Local Development
+The basic structure of the proposed work consists of a series of annual stakeholder summit meetings, held to coincide with the FSCI summer school, at which research and implementation questions are refined and assigned to working groups for investigation.
 
-1. Install Jekyll and plug-ins in one fell swoop. `gem install github-pages` This mirrors the plug-ins used by GitHub Pages on your local machine including Jekyll, Sass, etc.
-2. Clone down your fork `git clone https://github.com/yourusername/yourusername.github.io.git`
-3. Serve the site and watch for markup/sass changes `jekyll serve`
-4. View your website at http://127.0.0.1:4000/
-5. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
+FSCI is an annual, multi-disciplinary, multi-sector training institute in OSS organised by our partners Force11 and UCLA libraries. Arranging to hold our summit at this annual event is environmentally, economically, and intellectually advantageous: the summer institute is among the most interdisciplinary and largest of OSS training events and attracts instructors and students from a wide variety of disciplines, sectors, regions, and career stages: by coinciding with this event, we are able to reduce our own costs (by using already existing infrastructure) and the number of trips our participants (many of whom offer courses at FSCI) have to make; we also gain access to a large pool of potential users of our material through FSCI’s student body.
 
-## Moar!
+In keeping with our model from the National Academies and Principles of the Scholarly Commons, the precise focus and topics of these summits and working groups will be defined ultimately dynamically by the research partners in response to developments in OSS and the results of previous work. As an initial framework, however, our intention is to begin with a proposal for the following sequence of topics and research questions:
 
-I've created a more detailed walkthrough, [**Build A Blog With Jekyll And GitHub Pages**](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) over at the Smashing Magazine website. Check it out if you'd like a more detailed walkthrough and some background on Jekyll. :metal:
+1. Landscape analysis: 
+    1. Who is interested in OSS and why? How is this interest being manifested?
+    2. Who is training (and being trained) in OSS and how? 
+    3. What is known about how students, ECR, and HQP are trained in general research methods and professionalisation?
+    4. What regional, disciplinary, and other distinctions are there in (1.a), (1.b), and (1.c)
+2. Space for cooperation:
+    5. Can we improve OSS training by working together? What would an optimal OSS training landscape look like? Where should we not attempt to rationalise or streamline our efforts?
+    6. Are there specific audiences (ECR, Librarians, HQP, senior researchers, institutional leaders) we should be concentrating on? Is this the same in every discipline, region, or sector?
+    7. Whom can we learn from? What is best practice in OSS training? Who is having the greatest impact?
+3. Bringing OSS training to the disciplines:
+    8. Can OSS advocates and trainers contribute to improved research skills generally among students, ECR, HQP, and members of the general public?
+    9. Are there other groups (Librarians, government, funders, institutional leadership) who could do a better job of putting OSS research techniques in front of students?
 
-It covers:
+In each case, these and similar questions will be developed more fully at the summit meetings and assigned to working groups who will prepare reports, research outputs, training materials and other resources, for the larger group.
 
-- A more detailed walkthrough of setting up your Jekyll blog
-- Common issues that you might encounter while using Jekyll
-- Importing from Wordpress, using your own domain name, and blogging in your favorite editor
-- Theming in Jekyll, with Liquid templating examples
-- A quick look at Jekyll 2.0’s new features, including Sass/Coffeescript support and Collections
 
-## Jekyll Now Features
+# Breadth and engagement of the partner organisations involved
 
-✓ Command-line free _fork-first workflow_, using GitHub.com to create, customize and post to your blog  
-✓ Fully responsive and mobile optimized base theme (**[Theme Demo](http://jekyllnow.com)**)  
-✓ Sass/Coffeescript support using Jekyll 2.0  
-✓ Free hosting on your GitHub Pages user site  
-✓ Markdown blogging  
-✓ Syntax highlighting  
-✓ Disqus commenting  
-✓ Google Analytics integration  
-✓ SVG social icons for your footer  
-✓ 3 http requests, including your avatar  
+The partner institutions in Open Research Cultures currently comprise of organisations involved in the research or delivery of Open Research Training or Practices. These include many of the most prominent international organisations responsible for delivering courses in Open Science and Scholarship to various audiences (e.g FORCE11, SPARC, the Open Science MOOC, The Carpentries). It also includes two organisations with extensive experience in researching the delivery and promotion of Open Science (e.g. COKI). And finally it includes a number of institutions and organisations who are interested in the promotion and delivery of Open Research Practices at an institutional or disciplinary level (e.g. AGU, MLA, UCLA Libraries, University of Lethbridge). As a project to bridge the current gaps among these different organisations, Open Research Cultures provides a forum by which these organisations can leverage their current work in this area, discovering best practice, improving their knowledge of activities by others, and discovering efficiencies or complementary practices. # How does my Institution, Group, or Project join Open Research Cultures?
 
-✘ No installing dependencies
-✘ No need to set up local development  
-✘ No configuring plugins  
-✘ No need to spend time on theming  
-✘ More time to code other things ... wait ✓!  
+Open Research Cultures welcomes expressions of interest from institutions and organisations active in the development or promotion of Open Research Practices. Partners join Open Research Cultures through a negotiated letter of agreement indicating how participation fits with their current or planned activities and strategic priorities in Open Research and the resources and activities they bring to the network. Partners participate in the overall design and governance of the Partnership and benefit from opportunities to leverage their contributions through joint action and access to supplementary funding.
 
-## Questions?
+# Can I join as an individual?
 
-[Open an Issue](https://github.com/barryclark/jekyll-now/issues/new) and let's chat!
+Individuals participate in Open Research Cultures through their institutions, by joining the current leadership team, or, assuming the project is funded, participating in its activities. Depending on the timing and level of this participation, individuals may be required to register with SSHRC and provide a CV. 
 
-## Other forkable themes
-
-You can use the [Quick Start](https://github.com/barryclark/jekyll-now#quick-start) workflow with other themes that are set up to be forked too! Here are some of my favorites:
-
-- [Hyde](https://github.com/poole/hyde) by MDO
-- [Lanyon](https://github.com/poole/lanyon) by MDO
-- [mojombo.github.io](https://github.com/mojombo/mojombo.github.io) by Tom Preston-Werner
-- [Left](https://github.com/holman/left) by Zach Holman
-- [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) by Michael Rose
-- [Skinny Bones](https://github.com/mmistakes/skinny-bones-jekyll) by Michael Rose
-
-## Credits
-
-- [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
-- [SVG icons](https://github.com/neilorangepeel/Free-Social-Icons) - Thanks, Neil Orange Peel. They're beautiful.
-- [Solarized Light Pygments](https://gist.github.com/edwardhotchkiss/2005058) - Thanks, Edward.
-- [Joel Glovier](http://joelglovier.com/writing/) - Great Jekyll articles. I used Joel's feed.xml in this repository.
-- [David Furnes](https://github.com/dfurnes), [Jon Uy](https://github.com/jonuy), [Luke Patton](https://github.com/lkpttn) - Thanks for the design/code reviews.
-- [Bart Kiers](https://github.com/bkiers), [Florian Simon](https://github.com/vermluh), [Henry Stanley](https://github.com/henryaj), [Hun Jae Lee](https://github.com/hunjaelee), [Javier Cejudo](https://github.com/javiercejudo), [Peter Etelej](https://github.com/etelej), [Ben Abbott](https://github.com/jaminscript), [Ray Nicholus](https://github.com/rnicholus), [Erin Grand](https://github.com/eringrand), [Léo Colombaro](https://github.com/LeoColomb), [Dean Attali](https://github.com/daattali), [Clayton Errington](https://github.com/cjerrington), [Colton Fitzgerald](https://github.com/coltonfitzgerald), [Trace Mayer](https://github.com/sunnankar) - Thanks for your [fantastic contributions](https://github.com/barryclark/jekyll-now/commits/master) to the project!
-
-## Contributing
-
-Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before I'm more than happy to walk you through how to create a pull request.
-
-You can start by [opening an issue](https://github.com/barryclark/jekyll-now/issues/new) describing the problem that you're looking to resolve and we'll go from there.
-
-I want to keep Jekyll Now as minimal as possible. Every line of code should be one that's useful to 90% of the people using it. Please bear that in mind when submitting feature requests. If it's not something that most people will use, it probably won't get merged. :guardsman:
+# Contact
+For further details or to inquire about joining Open Research Cultures, please contact the project director 
+Daniel Paul O’Donnell [daniel.odonnell@uleth.ca](mailto:daniel.odonnell@uleth.ca)
+Director, Open Research Cultures http://OpenResearchCulture.org
+Centre for the Study of Scholarly Communication and Department of English
+University of Lethbridge
+Canada T1K 3M4
