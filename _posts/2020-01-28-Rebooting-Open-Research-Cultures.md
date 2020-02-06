@@ -3,7 +3,7 @@ layout: post
 title: Open Research Cultures
 ---
 
-**Open Research Cultures** is a research and knowledge mobilisation network dedicated to the development of an Open-by-Default research culture through training and professional development. The project is a partnership of leading Open Science and Scholarship (OSS) advocacy and training organisations, Research on Research Institutes, Libraries, Universities, and other organisations involved in the study, development, and dissemination of OSS skills and practices. It is led by a global network of OSS researchers, advocates, and thought leaders.
+**Open Research Cultures** is an international network for the promotion of an Open-by-Default research culture through improved training and professional development. The project is a partnership of leading Open Science and Scholarship (OSS) advocacy and training organisations, Research on Research Institutes, Libraries, Universities, and other organisations involved in the study, development, and dissemination of OSS skills and practices. It is led by a global network of OSS researchers, advocates, and thought leaders.
 
 We are in the process of preparing an application to the [Social Sciences and Humanities Research Council (Canada)](http://www.sshrc-crsh.gc.ca/) [2020 Partnership Grant Competition](http://www.sshrc-crsh.gc.ca/about-au_sujet/partnerships-partenariats/partnership_grants-bourses_partenariats-eng.aspx).
 
